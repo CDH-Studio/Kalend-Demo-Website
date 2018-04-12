@@ -1,1 +1,1 @@
-Webpage
+Redirects to personal website
