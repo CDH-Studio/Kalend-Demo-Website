@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 </html>
-	<head>
-		<meta http-equiv="refresh" content="0; url=https://benoitjeaurond.ca" />
-	</head>
 	<body>
+		<script>
+			var language = navigator.language
+			if (language.includes('fr')) {
+				window.location.href = 'https://benoitjeaurond.ca/fr';
+			} else {
+				window.location.href = 'https://benoitjeaurond.ca/en';
+			}
+		</script>
 	</body>
 </html>
