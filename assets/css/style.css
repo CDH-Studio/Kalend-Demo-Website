@@ -322,7 +322,6 @@ END Header Area
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 0;
-    padding-left: 44px;
 }
 
 .slider-inner a i {
@@ -716,7 +715,7 @@ END Screen Area
     margin: 0px 5px;
 }
 .tst-social li a:hover {
-	color: #5a0efb;
+	color: #1d84b5;
 }
 
 .testimonial-slider .owl-dots {
