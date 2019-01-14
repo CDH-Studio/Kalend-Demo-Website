@@ -143,7 +143,7 @@ textarea {
     top: 0;
     width: 100%;
     z-index: 998;
-    background-color: #1d84b5;
+    background-color: #146388;
 }
 
 .menu-area {
@@ -277,7 +277,7 @@ END Header Area
     display: flex;
     align-items: center;
     height: 800px;
-    background: #1d84b5;
+    background: #146388;
     padding-top: 80px;
 }
 
