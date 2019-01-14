@@ -277,8 +277,9 @@ END Header Area
     display: flex;
     align-items: center;
     height: 800px;
-    background: #146388;
+    background: #fdc539;
     padding-top: 80px;
+    background-image: url(../img/bg-pattern.png),linear-gradient( 30deg, #efdfe7, #8521f8);
 }
 
 .slider-img {}
@@ -1791,3 +1792,9 @@ END Blog Standard
 /*===========================
 END Blog Details
 ===========================*/
+
+@media (max-width: 991px) {
+    .logo a img {
+        width: 20%;
+    }
+}
