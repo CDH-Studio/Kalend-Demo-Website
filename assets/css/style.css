@@ -1819,6 +1819,10 @@ END Blog Details
       line-height: inherit;
     }
 
+    .timeline h3 { 
+        margin-bottom: 10px;
+    }
+
     /*----- TIMELINE ITEM -----*/
     .timeline-item {
       padding-left: 40px;
