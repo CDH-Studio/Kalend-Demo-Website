@@ -279,7 +279,7 @@ END Header Area
     height: 800px;
     background: #fdc539;
     padding-top: 80px;
-    background-image: url(../img/bg-pattern.png),linear-gradient( 30deg, #ff9f1c, #8521f8);
+    background-image: linear-gradient( 30deg, #ff9f1c, #8521f8);
 }
 
 .slider-img {}
