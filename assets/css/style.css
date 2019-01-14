@@ -279,7 +279,7 @@ END Header Area
     height: 800px;
     background: #fdc539;
     padding-top: 80px;
-    background-image: linear-gradient( 30deg, #ff9f1c, #8521f8);
+    background-image: url(../img/bg-pattern.png),linear-gradient( 30deg, #da39d5e0, #1473e6d9);
 }
 
 .slider-img {}
@@ -445,7 +445,7 @@ END Service Area
     bottom: 0;
     height: 2px;
     width: 130px;
-    background-color: #1473E6;
+    background-color: #ff9f1c;
     left: calc(50% - 65px);
 }
 
@@ -460,7 +460,7 @@ END Service Area
     bottom: -3px;
     height: 8px;
     width: 8px;
-    background-color: #1473E6;
+    background-color: #ff9f1c;
     left: calc(50% - 4px);
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
