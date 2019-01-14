@@ -159,6 +159,8 @@ textarea {
 
 .logo a img {
     max-height: 100%;
+    width: 60%;
+    height: 60%
 }
 
 .main-menu {
