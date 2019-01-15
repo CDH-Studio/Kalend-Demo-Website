@@ -286,7 +286,7 @@ END Header Area
     display: flex;
     align-items: center;
     height: 800px;
-    background: #fdc539;
+    background: #9562c7;
     padding-top: 80px;
     background-image: url(../img/bg-pattern.png),linear-gradient( 30deg, #da39d5e0, #1473e6d9);
 }
