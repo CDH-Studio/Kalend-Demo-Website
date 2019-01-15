@@ -619,10 +619,10 @@ END Achivement Area
 
 .screen-area img.screen-img {
     position: absolute;
-    left: 50%;
-    bottom: 152px;
-    width: 506px;
-    height: 546px;
+    left: 50.3%;
+    bottom: 149px;
+    width: 509px;
+    height: 567px;
     z-index: 111;
     transform: translateX(-50%);
 }
@@ -2036,3 +2036,11 @@ END Blog Details
 /*===========================
 END TimeLine
 ===========================*/
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+    .screen-area img.screen-img {
+        bottom: 169px !important;
+        width: 425px !important;
+        height: 463px !important;
+    }
+}

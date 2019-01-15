@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="667" viewBox="0 0 360 667">
+  <defs>
+    <filter id="Path_41" x="-9" y="-6" width="378" height="100" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M34,0H46L40,10ZM18,5a5,5,0,1,1,5,5A5,5,0,0,1,18,5ZM0,10V0H10V10Z" fill="none"/>
+    </clipPath>
+    <filter id="Rectangle_48" x="56.5" y="557.5" width="210" height="44" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_8" x="11" y="555" width="50" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_40" x="-9" y="599" width="378" height="75" filterUnits="userSpaceOnUse">
+      <feOffset dy="-2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Chatbot_1">
+      <rect width="360" height="667"/>
+    </clipPath>
+  </defs>
+  <g id="Chatbot_1" data-name="Chatbot – 1" clip-path="url(#clip-Chatbot_1)">
+    <rect width="360" height="667" fill="#fff"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="360" height="667" fill="rgba(168,168,168,0.11)"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_41)">
+      <path id="Path_41-2" data-name="Path 41" d="M0,0H360V82H0Z" fill="#fff"/>
+    </g>
+    <g id="System_Bar_Transparent" data-name="System Bar / Transparent">
+      <g id="_System_Bar_Color" data-name="↳ System Bar Color" opacity="0.5">
+        <rect id="_System_Bar_Color_background" data-name="↳ System Bar Color background" width="360" height="24" fill="rgba(0,0,0,0)"/>
+        <rect id="Rectangle_13" data-name="Rectangle 13" width="360" height="24" fill="#f5f5f5"/>
+      </g>
+      <g id="Icons" transform="translate(307 7)">
+        <path id="Mask-2" data-name="Mask" d="M34,0H46L40,10ZM18,5a5,5,0,1,1,5,5A5,5,0,0,1,18,5ZM0,10V0H10V10Z" fill="none"/>
+        <g id="Icons-2" data-name="Icons" clip-path="url(#clip-path)">
+          <g id="Icon_Color" data-name="Icon Color" transform="translate(-47 -7)">
+            <rect id="Icon_Color_background" data-name="Icon Color background" width="100" height="24" fill="rgba(0,0,0,0)"/>
+            <rect id="Rectangle" width="100" height="24" fill="rgba(0,0,0,0.54)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_102" data-name="Group 102" transform="translate(0 43)">
+      <g transform="matrix(1, 0, 0, 1, 0, -43)" filter="url(#Rectangle_48)">
+        <path id="Rectangle_48-2" data-name="Rectangle 48" d="M0,0H180.5A14.5,14.5,0,0,1,195,14.5v0A14.5,14.5,0,0,1,180.5,29H14.5A14.5,14.5,0,0,1,0,14.5V0A0,0,0,0,1,0,0Z" transform="translate(62 562)" fill="#fff"/>
+      </g>
+      <g id="Group_101" data-name="Group 101">
+        <g transform="matrix(1, 0, 0, 1, 0, -43)" filter="url(#Ellipse_8)">
+          <circle id="Ellipse_8-2" data-name="Ellipse 8" cx="16" cy="16" r="16" transform="translate(20 561)" fill="#fff"/>
+        </g>
+        <g id="twotone-face-24px" transform="translate(16.94 514.932)">
+          <path id="Path_20" data-name="Path 20" d="M0,0H38.064V38.071H0Z" fill="none"/>
+          <path id="Path_21" data-name="Path 21" d="M24.3,10.08A12.686,12.686,0,0,0,26.338,9.9,12.144,12.144,0,0,0,15.941,4a12.686,12.686,0,0,0-2.037.182A12.144,12.144,0,0,0,24.3,10.08ZM9.983,5.566A12.23,12.23,0,0,0,4.42,12.314,12.23,12.23,0,0,0,9.983,5.566Z" transform="translate(3.03 2.423)" fill="#565454" opacity="0.3"/>
+          <path id="Path_22" data-name="Path 22" d="M17.992,2A16,16,0,1,0,33.985,18,16,16,0,0,0,17.992,2Zm0,3.2a12.777,12.777,0,0,1,10.939,6.206,13.344,13.344,0,0,1-2.143.192A12.777,12.777,0,0,1,15.849,5.391,13.344,13.344,0,0,1,17.992,5.2ZM11.723,6.847a12.869,12.869,0,0,1-5.853,7.1A12.869,12.869,0,0,1,11.723,6.847Zm6.269,23.945A12.812,12.812,0,0,1,5.2,18c0-.08.016-.16.016-.24a16.066,16.066,0,0,0,9.18-8.877A15.9,15.9,0,0,0,26.788,14.8a16.478,16.478,0,0,0,3.47-.384A12.606,12.606,0,0,1,30.786,18,12.812,12.812,0,0,1,17.992,30.792Z" transform="translate(1.04 1.04)" fill="#565454"/>
+          <circle id="Ellipse_5" data-name="Ellipse 5" cx="1.9" cy="1.9" r="1.9" transform="translate(12.351 18.729)" fill="#565454"/>
+          <circle id="Ellipse_6" data-name="Ellipse 6" cx="1.9" cy="1.9" r="1.9" transform="translate(21.913 18.729)" fill="#565454"/>
+        </g>
+      </g>
+      <text id="Hello_how_can_I_help_you" data-name="Hello, how can I help you" transform="translate(75 539)" fill="#565454" font-size="15" font-family="Raleway-Regular, Raleway"><tspan x="0" y="0">Hello, how can I help you</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_40)">
+      <path id="Path_40-2" data-name="Path 40" d="M0,0H360V57H0Z" transform="translate(0 610)" fill="#1473e6"/>
+    </g>
+    <rect id="Rectangle_50" data-name="Rectangle 50" width="323" height="35" rx="17.5" transform="translate(17 620)" fill="rgba(255,255,255,0.8)"/>
+    <text id="Write_a_message" data-name="Write a message" transform="translate(34 644)" fill="#606060" font-size="15" font-family="Raleway-Regular, Raleway"><tspan x="0" y="0">Write a message</tspan></text>
+    <g id="twotone-send-24px" transform="translate(303 626)">
+      <path id="Path_25" data-name="Path 25" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_26" data-name="Path 26" d="M4,8.25l7.51,1L4.01,6.03Zm.01,9.72,7.5-3.22L4,15.75Z" fill="#1473e6" opacity="0.3"/>
+      <path id="Path_27" data-name="Path 27" d="M2.01,3,2,10l15,2L2,14l.01,7L23,12ZM4,8.25V6.03l7.51,3.22Zm.01,9.72V15.75l7.51-1Z" fill="#1473e6"/>
+    </g>
+    <g id="twotone-arrow_back_ios-24px" transform="translate(17 41)">
+      <path id="Path_28" data-name="Path 28" d="M0,0H24V24H0Z" fill="none" opacity="0.87"/>
+      <path id="Path_29" data-name="Path 29" d="M17.51,3.87,15.73,2.1,5.84,12l9.9,9.9,1.77-1.77L9.38,12Z"/>
+    </g>
+    <text id="Chatbot" transform="translate(61 60)" fill="#565454" font-size="20" font-family="Raleway-Regular, Raleway"><tspan x="0" y="0">Chatbot</tspan></text>
+  </g>
+</svg>
