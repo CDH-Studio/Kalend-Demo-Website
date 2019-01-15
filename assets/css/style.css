@@ -1186,6 +1186,13 @@ END Contact Area
     background-color: #444;
 }
 
+.center-contact{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /*===========================
 END Contact Area
 ===========================*/
@@ -1830,7 +1837,6 @@ END Blog Standard
 /*===========================
 END Blog Details
 ===========================*/
-
 
 @media (max-width: 991px) {
     .logo a img {
