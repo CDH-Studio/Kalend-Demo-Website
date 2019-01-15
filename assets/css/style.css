@@ -296,11 +296,10 @@ END Header Area
     position: absolute;
     left: 0;
     bottom: -270px;
+    animation: MoveUpDown 5s infinite;
 }
 
 .slider-img:hover {
-    animation: MoveUp 0.5s;
-    animation-fill-mode: forwards;  
 }
 
 @keyframes MoveUp {
@@ -320,7 +319,14 @@ END Header Area
       bottom: -270px;
     }
   }
-
+  @keyframes MoveUpDown {
+    0%, 100% {
+        bottom: -250px;
+    }
+    75% {
+      bottom: -270px;
+    }
+  }
 .slider-img img {
     max-height: 100%;
 }
