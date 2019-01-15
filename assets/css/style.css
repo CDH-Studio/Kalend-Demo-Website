@@ -418,7 +418,7 @@ END Slider Area
 }
 
 .service-single {
-    padding: 40px 0px;
+    padding: 40px 40px;
     background: #fff;
     border-radius: 5px;
     text-align: center;
@@ -511,7 +511,7 @@ END Service Area
 }
 
 .section-title p {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     color: #666666;
 }
@@ -1867,6 +1867,8 @@ END Blog Details
 ==================================*/
     /*-- GENERAL STYLES
     ------------------------------*/
+
+
     .timeline {
       line-height: 1.4em;
       list-style: none;
@@ -1910,7 +1912,7 @@ END Blog Details
       width: 15px;
     }
     .timeline-marker:before {
-      background: #1473E6;
+      background: #fff;
       border: 3px solid transparent;
       border-radius: 100%;
       content: "";
@@ -1938,7 +1940,7 @@ END Blog Details
 
     .timeline-item:not(.period):hover .timeline-marker:before {
       background: transparent;
-      border: 3px solid #1473E6;
+      border: 3px solid #fff;
     }
 
     /*----- TIMELINE CONTENT -----*/
@@ -1981,6 +1983,22 @@ END Blog Details
       margin: 0;
     }
 
+    .timeline-title {
+        color: #fff;
+    }
+
+    .call-to-action .section-title {
+        color: #fff;
+    }
+
+    .call-to-action .section-title h2{
+        color: #fff;
+    }
+
+    .timeline-content p 
+{
+    color: #fff;
+}    
     /*----------------------------------------------
         MOD: TIMELINE SPLIT
     ----------------------------------------------*/
@@ -2087,10 +2105,10 @@ END Blog Details
     ----------------------------------------------*/
     .marker-outline .timeline-marker:before {
       background: transparent;
-      border-color: #1473E6;
+      border-color: #fff;
     }
     .marker-outline .timeline-item:hover .timeline-marker:before {
-      background: #1473E6;
+      background: #fff;
     }
 /*===========================
 END TimeLine
@@ -2103,4 +2121,12 @@ END TimeLine
         width: 425px !important;
         height: 463px !important;
     }
+}
+
+#team .ptb--100 {
+    padding-bottom: 0 !important;
+}
+
+#team .container .section-title {
+    margin-bottom: 0 !important;
 }
