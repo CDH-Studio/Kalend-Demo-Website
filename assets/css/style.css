@@ -139,12 +139,22 @@ textarea {
 ===========================*/
 .header-area {
     position: fixed;
+    display:block;
     left: 0;
     top: 0;
     width: 100%;
     z-index: 998;
-    background-image: linear-gradient( 0deg, #ffffff00, #0000006b);
+    background-image: linear-gradient( 0deg, #ffffff00, #00000032);
+    transition: box-shadow 400ms linear;
+    box-shadow: none;
 }
+
+.header-area.scrolled {
+    transition: box-shadow 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: #1473e6f0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
 
 .menu-area {
     display: flex;
@@ -282,7 +292,35 @@ END Header Area
     background-image: url(../img/bg-pattern.png),linear-gradient( 30deg, #da39d5e0, #1473e6d9);
 }
 
-.slider-img {}
+.slider-img {
+    animation: MoveDown 1s;
+    position: absolute;
+    left: 0;
+    bottom: -270px;
+}
+
+.slider-img:hover {
+    animation: MoveUp 0.5s;
+    animation-fill-mode: forwards;  
+}
+
+@keyframes MoveUp {
+    from {
+        bottom: -270px;
+    }
+    to {
+      bottom: -250px;
+    }
+  }
+
+  @keyframes MoveDown {
+    from {
+        bottom: -250px;
+    }
+    to {
+      bottom: -270px;
+    }
+  }
 
 .slider-img img {
     max-height: 100%;
@@ -1163,7 +1201,6 @@ END Contact Area
     line-height: 4em;
 }
 
-}
 /*===========================
 END Contact Area
 ===========================*/
@@ -1178,6 +1215,10 @@ END Contact Area
 }
 .footer-area p{
     color: #ffffff;
+}
+.footer-area p a{
+    color: #ff9f1c;
+    font-size: 14px;
 }
 /*===========================
 3. Blog Details
@@ -1767,6 +1808,7 @@ END Blog Standard
 }
 
 
+
 .widget--category-list ul li a:hover,
 .widget--archive-list ul li a:hover,
 .widget--category-list ul li a:hover::before,
@@ -1813,6 +1855,8 @@ END Blog Details
         width: 20%;
     }
 }
+
+
 /*==================================
     TIMELINE
 ==================================*/
