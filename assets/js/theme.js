@@ -284,5 +284,10 @@
         bgParallax();
     });
 
+    $(document).scroll(function () {
+        var $nav = $(".header-area");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+
 
 }(jQuery));
