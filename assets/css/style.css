@@ -1208,6 +1208,10 @@ END Contact Area
 .footer-area p{
     color: #ffffff;
 }
+.footer-area p a{
+    color: #ff9f1c;
+    font-size: 14px;
+}
 /*===========================
 3. Blog Details
 ===========================*/
