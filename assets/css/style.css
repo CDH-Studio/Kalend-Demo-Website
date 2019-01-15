@@ -144,7 +144,7 @@ textarea {
     top: 0;
     width: 100%;
     z-index: 998;
-    background-image: linear-gradient( 0deg, #ffffff00, #00000040);
+    background-image: linear-gradient( 0deg, #ffffff00, #00000032);
     transition: box-shadow 400ms linear;
     box-shadow: none;
 }
@@ -152,7 +152,7 @@ textarea {
 .header-area.scrolled {
     transition: box-shadow 400ms linear;
     transition: background-color 400ms linear;
-    background-color: #1473E6;
+    background-color: #1473e6f0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 
