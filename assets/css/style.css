@@ -259,7 +259,7 @@ textarea {
 }
 
 .slicknav_nav {
-    background: #13c5de;
+    background: #ffffff50;
     margin: 10px;
     padding: 6px 0px;
 }
@@ -273,7 +273,6 @@ textarea {
     font-size: 14px;
     letter-spacing: 0.01em;
 }
-
 
 /*==========================
 END Header Area
@@ -2129,4 +2128,10 @@ END TimeLine
 
 #team .container .section-title {
     margin-bottom: 0 !important;
+}
+
+#team .container .section-title a {
+    font-size: 17px;
+    color: #ff9f1c;
+    font-family: 'Poppins', sans-serif;
 }
