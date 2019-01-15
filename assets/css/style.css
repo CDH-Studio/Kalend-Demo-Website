@@ -706,7 +706,7 @@ END Screen Area
 
 .single-tst {
         text-align: center;
-    border: 2px solid #1473E6;
+    border: 2px solid #ffffff;
     border-radius: 10px;
     margin-top: 109px;
     padding: 0px 8%;
@@ -764,7 +764,7 @@ END Screen Area
 .testimonial-slider .owl-dots .owl-dot {
     height: 15px;
     width: 15px;
-    border: 1px solid #1473E6;
+    border: 1px solid #ffffff;
     border-radius: 50%;
     display: inline-block;
     margin: 0px 2px;
@@ -774,7 +774,7 @@ END Screen Area
 }
 
 .testimonial-slider .owl-dots .active {
-    background-color: #1473E6;
+    background-color: #ffffff;
 }
 
 
@@ -798,7 +798,7 @@ END Testimonial Area
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(20, 115, 230,0.9);
+    background-image: linear-gradient( 30deg, #da39d5e0, #1473e6d9);
 }
 .video-area h2{
 	font-size: 40px;
@@ -1897,7 +1897,7 @@ END Blog Details
       width: 15px;
     }
     .timeline-marker:before {
-      background: #FF6B6B;
+      background: #1473E6;
       border: 3px solid transparent;
       border-radius: 100%;
       content: "";
@@ -1925,7 +1925,7 @@ END Blog Details
 
     .timeline-item:not(.period):hover .timeline-marker:before {
       background: transparent;
-      border: 3px solid #FF6B6B;
+      border: 3px solid #1473E6;
     }
 
     /*----- TIMELINE CONTENT -----*/
@@ -2074,10 +2074,10 @@ END Blog Details
     ----------------------------------------------*/
     .marker-outline .timeline-marker:before {
       background: transparent;
-      border-color: #FF6B6B;
+      border-color: #1473E6;
     }
     .marker-outline .timeline-item:hover .timeline-marker:before {
-      background: #FF6B6B;
+      background: #1473E6;
     }
 /*===========================
 END TimeLine
