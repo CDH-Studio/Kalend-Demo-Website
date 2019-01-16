@@ -152,7 +152,7 @@ textarea {
 .header-area.scrolled {
     transition: box-shadow 400ms linear;
     transition: background-color 400ms linear;
-    background-color: #1473e6f0;
+    background-color: #535353;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 
@@ -2140,4 +2140,12 @@ END TimeLine
     font-size: 17px;
     color: #ff9f1c;
     font-family: 'Poppins', sans-serif;
+}
+
+#timeline h2:before{
+    background-color: #FFFFFF !important;
+}
+
+#timeline h2:after{
+    background-color: #FFFFFF !important;
 }
