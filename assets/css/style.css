@@ -410,7 +410,22 @@ canvas.worms.sketch{
 /*===========================
 END Slider Area
 ===========================*/
+.nav-link {
+    padding:0.25em;
+    padding-top: 0.75em;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
 
+.nav-link.active {
+    color: #fff;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: #fff;
+}
 
 /*===========================
 2.3 Service Area
@@ -1217,7 +1232,7 @@ END Contact Area
 
 /*footer area*/
 .footer-area{
-    height: 80px;
+    height: 120px;
     text-align: center;
     background-color: #1473E6;
     display: flex;
