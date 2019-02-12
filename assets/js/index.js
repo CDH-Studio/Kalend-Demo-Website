@@ -1,49 +1,54 @@
-$(document).ready(
-    function(){
+function hide(className) {
+    $("."+className).hide();
+}
+
+function show(className) {
+    $("."+className).show();
+}
+
+document.addEventListener("DOMContentLoaded", function(event) { 
+    var eng = document.getElementById("enTrig");
+    var fra = document.getElementById("frTrig");
+
+    eng.onclick = function(){
+        show("en");
+        hide("fr");
         
-        if (navigator.language.includes('fr')) {
-            $(".en").hide();
-            $(".fr").show();
+        fra.style.cursor = "";
+        fra.style.color = "";
+        fra.style.fontWeight = "";
 
-            $("#frTrig").css("font-weight", "bold");
-            $("#frTrig").css("cursor", "default");
-            $("#frTrig").css("color", "#fff");
-        } else {
-            $(".en").show();
-            $(".fr").hide();
-            
-            $("#enTrig").css("font-weight", "bold");
-            $("#enTrig").css("cursor", "default");
-            $("#enTrig").css("color", "#fff");
-        }
-
-        $(".en").css("visibility", "visible");
-        $(".fr").css("visibility", "visible");
-
-        $("#enTrig").on('click', function(event) {
-            $(".en").show();
-            $(".fr").hide();
-
-            $("#enTrig").css("font-weight", "bold");
-            $("#enTrig").css("cursor", "default");
-            $("#enTrig").css("color", "#fff");
-
-            $("#frTrig").css("font-weight", "");
-            $("#frTrig").css("cursor", "");
-            $("#frTrig").css("color", "");
-        });
-
-        $("#frTrig").on('click', function(event) {
-            $(".en").hide();
-            $(".fr").show();
-
-            $("#frTrig").css("font-weight", "bold");
-            $("#frTrig").css("cursor", "default");
-            $("#frTrig").css("color", "#fff");
-
-            $("#enTrig").css("font-weight", "");
-            $("#enTrig").css("cursor", "");
-            $("#enTrig").css("color", "");
-        });
+        eng.style.cursor = "default";
+        eng.style.color = "#fff";
+        eng.style.fontWeight = "bold";
     }
-);
+    
+    fra.onclick = function(){
+        show("fr");
+        hide("en");
+        
+        eng.style.cursor = "";
+        eng.style.color = "";
+        eng.style.fontWeight = "";
+
+        fra.style.cursor = "default";
+        fra.style.color = "#fff";
+        fra.style.fontWeight = "bold";
+    }
+    hide("fr");
+
+    if (navigator.language.includes('fr')) {
+        show("fr");
+        hide("en");
+
+        fra.style.cursor = "default";
+        fra.style.color = "#fff";
+        fra.style.fontWeight = "bold";
+    } else {
+        hide("fr");
+
+        eng.style.cursor = "default";
+        eng.style.color = "#fff";
+        eng.style.fontWeight = "bold";
+    }
+});
