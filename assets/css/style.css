@@ -144,7 +144,7 @@ textarea {
     top: 0;
     width: 100%;
     z-index: 998;
-    background-image: linear-gradient( 0deg, #ffffff00, #00000032);
+    background-image: linear-gradient( 0deg, #00000000, #00000065);
     transition: box-shadow 400ms linear;
     box-shadow: none;
 }
@@ -152,7 +152,7 @@ textarea {
 .header-area.scrolled {
     transition: box-shadow 400ms linear;
     transition: background-color 400ms linear;
-    background-color: #535353;
+    background-color: #153d73;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 
@@ -288,7 +288,7 @@ END Header Area
     height: 800px;
     background: #9562c7;
     padding-top: 80px;
-    background-image: url(../img/bg-pattern.png),linear-gradient( 30deg, #da39d5e0, #1473e6d9);
+    background-image: url(../img/bg-pattern.png),linear-gradient( 30deg, #153d73, #32D2DC);
 }
 
 .slider-img {
@@ -393,14 +393,14 @@ END Header Area
     height: 100%;
     width: 100%;
     opacity: 0.8;
-    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #ffdc57, #1473E6) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #ffdc57, #153d73) repeat scroll 0 0;
 }
 .full-opacity:before{
     opacity: 1;
-    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #ffdc57, #1473E6) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #ffdc57, #153d73) repeat scroll 0 0;
 }
 .warm-canvas{
-    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #ffdc57, #1473E6) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #ffdc57, #153d73) repeat scroll 0 0;
 }
 canvas.worms.sketch{
     max-width: 100%;
@@ -503,7 +503,7 @@ END Service Area
     bottom: 0;
     height: 2px;
     width: 130px;
-    background-color: #ff9f1c;
+    background-color: #153d73;
     left: calc(50% - 65px);
 }
 
@@ -518,7 +518,7 @@ END Service Area
     bottom: -3px;
     height: 8px;
     width: 8px;
-    background-color: #ff9f1c;
+    background-color: #153d73;
     left: calc(50% - 4px);
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -630,7 +630,7 @@ END Feature Area
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(20, 115, 230,0.9);
+    background-color: rgba(21, 61, 115, 0.9);
 }
 
 .ach-single {
@@ -697,7 +697,7 @@ END Achivement Area
 .screen-slider .owl-dots .owl-dot {
     height: 15px;
     width: 15px;
-    border: 1px solid #1473E6;
+    border: 1px solid #153d73;
     border-radius: 50%;
     display: inline-block;
     margin: 0px 2px;
@@ -707,7 +707,7 @@ END Achivement Area
 }
 
 .screen-slider .owl-dots .active {
-    background-color: #1473E6;
+    background-color: #153d73;
 }
 
 
@@ -773,7 +773,7 @@ END Screen Area
     margin: 0px 5px;
 }
 .tst-social li a:hover {
-	color: #1473E6;
+	color: #153d73;
 }
 
 .testimonial-slider .owl-dots {
@@ -818,7 +818,7 @@ END Testimonial Area
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient( 30deg, #da39d5e0, #1473e6d9);
+    background-image: linear-gradient( 30deg, #da39d5e0, #153d73d9);
 }
 .video-area h2{
 	font-size: 40px;
@@ -835,7 +835,7 @@ END Testimonial Area
 }
 .video-area a{
 	font-size: 22px;
-    color: #1473E6;
+    color: #153d73;
     height: 50px;
     width: 50px;
 	position: relative;
@@ -914,7 +914,7 @@ END Video Area
     box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
 }
 .prc-head{
-        background: #1473E6;
+        background: #153d73;
     text-align: center;
     padding: 40px;
 }
@@ -953,7 +953,7 @@ END Video Area
     font-weight: 400;
     letter-spacing: 0;
     color: #333;
-    border: 1px solid #1473E6;
+    border: 1px solid #153d73;
     padding: 5px 21px;
     border-radius: 3px;
     display: inline-block;
@@ -961,7 +961,7 @@ END Video Area
 }
 .single-price a:hover{
     color: #fff;
-    background-color: #1473E6;
+    background-color: #153d73;
 }
 
 /*===========================
@@ -1033,7 +1033,7 @@ END Pricing Area
     height: 100%;
     width: 100%;
     z-index: -1;
-    background-color: rgba(20, 115, 230,0.9);
+    background-color: rgba(21, 61, 115, 0.9);
 }
 .download-btns a {
     margin: 0px 32px;
@@ -1051,7 +1051,7 @@ END Pricing Area
 }
 .download-btns a:hover{
     background-color: #fff;
-    color: #1473E6;
+    color: #153d73;
 }
 .download-btns a i {
     font-size: 19px;
@@ -1100,7 +1100,7 @@ END Call To Action
     letter-spacing: 0;
 }
 .single-post h2 a:hover{
-    color: #1473E6;
+    color: #153d73;
 }
 .single-post p{
     color: #555;
@@ -1150,7 +1150,7 @@ END Contact Area
 .contact-form #send{
     height: 45px;
     width: 150px;
-    background: #1473E6;
+    background: #153d73;
     color: #fff;
     text-align: center;
     line-height: 45px;
@@ -1169,7 +1169,7 @@ END Contact Area
 }
 .s-info i{
         font-size: 21px;
-    color: #1473E6;
+    color: #153d73;
     float: left;
     margin-right: 14px;
     margin-top: 6px;
@@ -1195,7 +1195,7 @@ END Contact Area
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-color: #1473E6;
+    background-color: #153d73;
     color: #fff;
     text-align: center;
     line-height: 50px;
@@ -1234,7 +1234,7 @@ END Contact Area
 .footer-area{
     height: 120px;
     text-align: center;
-    background-color: #1473E6;
+    background-color: #153d73;
     display: flex;
     align-items: center;
 }
@@ -1242,7 +1242,7 @@ END Contact Area
     color: #ffffff;
 }
 .footer-area p a{
-    color: #ff9f1c;
+    color: #ffffff;
     font-size: 14px;
 }
 /*===========================
@@ -1278,7 +1278,7 @@ END Contact Area
 }
 
 .list-item h2.blog-title a:hover {
-    color: #1473E6;
+    color: #153d73;
 }
 
 .blog-meta {}
@@ -1308,7 +1308,7 @@ END Contact Area
 .list-item a.read-more {
     width: 130px;
     height: 40px;
-    background: #1473E6;
+    background: #153d73;
     display: block;
     text-align: center;
     line-height: 40px;
@@ -1357,7 +1357,7 @@ END Contact Area
 .blog-single-tags ul li a {
     display: inline-block;
     padding: 9px 15px;
-    background: #1473E6;
+    background: #153d73;
     color: #fff;
     text-transform: uppercase;
     line-height: 14px;
@@ -1555,7 +1555,7 @@ END Contact Area
 }
 
 .leave-comment form input#comment-submit {
-    background: #1473E6;
+    background: #153d73;
     border: 1px solid transparent;
     text-transform: uppercase;
     font-size: 12px;
@@ -1592,7 +1592,7 @@ END Contact Area
 }
 .crumbs-inner h2 {
     text-transform: uppercase;
-    color: #1473E6;
+    color: #153d73;
     letter-spacing: 0.05em;
     margin-bottom: 12px;
     font-size: 36px;
@@ -1609,7 +1609,7 @@ END Contact Area
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 0;
-    color: #1473E6;
+    color: #153d73;
 }
 
 .crumbs-inner ul li a {
@@ -1649,7 +1649,7 @@ END Contact Area
 
 .pagination ul {
     display: inline-block;
-    background: #1473E6;
+    background: #153d73;
     padding: 4px 7px;
     border-radius: 1px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
@@ -1732,7 +1732,7 @@ END Blog Standard
     top: 0;
     height: 45px;
     width: 45px;
-    background: #1473E6;
+    background: #153d73;
     border: 1px solid transparent;
     color: #ffffff;
     border-radius: 2px;
@@ -1746,7 +1746,7 @@ END Blog Standard
 
 .widget-title {
     margin-bottom: 30px;
-    background: #1473E6;
+    background: #153d73;
     padding: 8px 10px;
     border-radius: 2px;
 }
@@ -1801,7 +1801,7 @@ END Blog Standard
 }
 
 .meta--content a:hover {
-    color: #1473E6;
+    color: #153d73;
 }
 
 .meta--content span.up-time {
@@ -1840,7 +1840,7 @@ END Blog Standard
 .widget--archive-list ul li a:hover::before,
 .sidebar--area .widget-nav-menu ul li a:hover::before,
 .sidebar--area .widget-nav-menu ul li a:hover {
-    color: #1473E6;
+    color: #153d73;
 }
 
 .widget--category-list ul li a span,
@@ -1856,7 +1856,7 @@ END Blog Standard
     display: inline-block;
     font-size: 10px;
     text-transform: uppercase;
-    background: #1473E6;
+    background: #153d73;
     color: #fff;
     padding: 7px 13px;
     margin-bottom: 5px;
@@ -2153,7 +2153,7 @@ END TimeLine
 
 #team .container .section-title a {
     font-size: 17px;
-    color: #ff9f1c;
+    color: #153d73;
     font-family: 'Poppins', sans-serif;
 }
 
